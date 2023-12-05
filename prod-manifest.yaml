@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prod-stedi-nate
-          image: gcr.io/cubs-consulting/stedi # This image needs to refer to the NEW Artifact registry repositorry
+          image: us-docker.pkg.dev/byui-scrum-team-11am-mst/nate-api/cit262-stedi-api:latest # This image needs to refer to the NEW Artifact registry repositorry
           env:
             - name: REDIS_PASSWORD
               valueFrom:
