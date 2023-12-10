@@ -9,7 +9,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: tva    # Add your cluster name here.
   GKE_ZONE: us-central1-a   # Add your cluster zone here.
-  DEPLOYMENT_NAME: nate-api # Add your deployment name here.
+  DEPLOYMENT_NAME: prod-stedi-nate # Add your deployment name here.
   IMAGE: nate-api
 
 jobs:
